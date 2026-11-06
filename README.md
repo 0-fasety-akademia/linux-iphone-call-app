@@ -4,6 +4,9 @@ Answer and make **iPhone calls on Ubuntu** over Bluetooth. Your laptop acts as a
 kit (like a car): see who is calling, answer on the laptop, keep the call on the iPhone or
 decline it, and call anyone from your iPhone contacts.
 
+**Created by: JGu**  
+**Supported by Claude**
+
 Part of the series: linux-icloud-photos · linux-icloud-mail · linux-apple-music-player ·
 linux-imessage · **linux-iphone-call-app**.
 
@@ -27,7 +30,7 @@ linux-imessage · **linux-iphone-call-app**.
 - Option **“Keep iPhone app audio on the iPhone”**: games, YouTube, music stay on the
   phone; only calls come to the laptop (enabled by default)
 - Optional ringtone on the laptop, start at login (enabled on first run)
-- Version and build date shown bottom-left; **Diagnostics** dialog
+- Version and build date shown bottom-left; **About** (Created by: JGu · Supported by Claude) and **Diagnostics** dialogs
 
 ## Privacy
 
@@ -53,7 +56,7 @@ pipewire --version
 ## Install
 
 ```bash
-sudo apt install ./linux-iphone-call-app_0.1.2_all.deb
+sudo apt install ./linux-iphone-call-app_0.1.3_all.deb
 linux-iphone-call-app            # or from the app grid: “Linux iPhone Calls”
 ```
 
@@ -129,5 +132,5 @@ Wymaga PipeWire 1.4+. Wszystkie dane zostają lokalnie na laptopie.
 
 ## License
 
-MIT — see [LICENSE](LICENSE). The phone handset glyph in the icons is based on Material
+MIT — see [LICENSE](LICENSE). Created by: JGu · Supported by Claude. The phone handset glyph in the icons is based on Material
 Icons “call” (Apache License 2.0, © Google).
